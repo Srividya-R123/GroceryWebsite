@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+//rendering refers to the process of converting React components into actual DOM elements that can be displayed on the web page.
 //component
 const Person=(props)=>{
   return (

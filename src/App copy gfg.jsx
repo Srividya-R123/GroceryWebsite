@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Home from './Pages/Homepage/home';
-import './App.css'
 
+import './App.css'
 
 
 const App=()=>{
@@ -11,8 +10,7 @@ const App=()=>{
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<Home />}></Route>
-    <Route path="/Home" element={<Home />}></Route>
-    <Route path="*" element={<div><h1>404 NOT PAGE FOUND</h1></div>}></Route>
+    <Route path="/home" element={<Home />}></Route>
    </Routes>
    </BrowserRouter>
   )
