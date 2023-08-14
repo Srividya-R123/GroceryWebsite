@@ -1,0 +1,11 @@
+:root{
+    --col1:#CD6688;
+    --col2:#FFCCCC;
+    --col3:#FEBBCC; 
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins","san-serif";
+    font-weight:400;
+}

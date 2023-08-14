@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from './Pages/Homepage/home';
 import './App.css'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const App=()=>{

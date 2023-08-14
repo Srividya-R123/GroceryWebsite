@@ -1,0 +1,119 @@
+nav{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow:0 0 10px 0 rgba(0,0,00,0.2);
+    background-color: #173417;
+}
+nav svg{
+    width: 30px;
+    height:30px;
+    cursor:pointer;
+    color:white;
+  
+}
+nav svg:hover{
+    color:#9CFF2E;
+}
+
+
+nav .sec1{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:90px;
+}
+nav img{
+    width:120px;
+    height:120px;
+}
+
+nav .searchBar{
+    display: flex;
+    box-shadow:0 0 10px 0 rgba(0,0,00,0.2);
+    overflow: hidden;
+    padding: 5px;
+    justify-content: space-between;
+    border:none;
+    border-radius: 13px;
+    width:50%;
+    background-color: #C7F2A4;
+}
+
+nav .searchBar input{
+    background-color: #C7F2A4;
+    border:none;
+    width:100%;
+    outline:none;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+nav .searchBar input::placeholder{
+    color:#173417;
+}
+nav .searchBar svg{
+    color:#173417;
+}
+
+nav .searchBar svg:hover{
+    color:#9CFF2E;
+    background-color: #173417;
+    border-radius: 50%;
+}
+
+nav .searchBar button{
+    border:none;
+    background-color: transparent;
+    cursor:pointer;
+}
+nav .sec1 .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+new .cart{
+    position: relative;
+    margin: 0px 20px;
+}
+nav .cart .qty{
+    background-color:#E90064 ;
+    color:#F0EEED;
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    position: absolute;
+    top:25px;
+    right:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    text-align: center;
+}
+nav .sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+    color:#F0EEED;
+    gap:100px;
+    cursor:pointer;
+    height:30px;
+}
+
+nav .sec2 a:hover{
+    color:#9CFF2E;
+}
+nav .sec2 .dropdown-toggle {
+    color: white;
+    border-color: #173417;
+}
+
+nav .sec2 .dropdown-toggle:focus {
+    border-color: #173417;
+    color: #9CFF2E; /* Change the color when the button is focused */
+}
+
