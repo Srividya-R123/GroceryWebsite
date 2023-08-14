@@ -1,6 +1,7 @@
 import React from 'react'  
 import Navbar from '../../COMPONENTS/Navbar/NavBar'
 import BannerSlider from '../../COMPONENTS/Banners/BannerSlider'
+import HomeCategories from '../../COMPONENTS/Category/HomeCategories'
 
 
 
@@ -10,6 +11,7 @@ const Home=()=>{
    <div>
     <Navbar/>
     <BannerSlider />
+    <HomeCategories/>
 
     Home</div>
   )

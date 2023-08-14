@@ -1,0 +1,32 @@
+.homecategories{
+    background-color: #FFF6E0;
+    height:300px;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content:center;
+}
+.heading{
+    background-color: #FFF6E0;
+    margin: 0;
+    padding:20px;
+    color:#61677A;
+}
+.container{
+    width: 10px;
+    background-color: #FCBAAD;
+    height:250px;
+    border-radius: 50%;
+    
+}
+.homecategories img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin:20px 0 0 35px;
+}
+.homecategories p{
+    font-size: 20px;
+    text-align: center;
+}
