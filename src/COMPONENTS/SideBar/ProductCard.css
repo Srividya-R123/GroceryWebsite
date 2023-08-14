@@ -1,0 +1,97 @@
+
+.prod{
+display: flex;
+flex-direction: column;
+height: 300px;
+width:250px;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+position: relative;
+border-radius: 30px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.prod .addbtn svg{
+    width:30px;
+    height:30px;
+}
+.prod .sec1{
+    height:55%;
+    width:100%;
+    padding: 5px;
+}
+.prod .sec1 img{
+    width:100%;
+    height:100%;
+    border-radius:50px;
+    margin-top: 10px;
+    object-fit: contain;
+    transition:all 0.5s ease;
+}
+.prod .sec1 img:hover{
+    scale:1.1;
+}
+
+.prod .sec2{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+.prod h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px;
+    width: 90%;
+    
+}
+.prod span{
+    text-decoration:line-through;
+    margin: 5px;
+    color: grey;
+}
+.prod h4{
+font-size: 30px;
+font-weight: 700;
+}
+.prod .sec3 {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:5px 0px;
+}
+.prod .sec3 p{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 5px 0px;
+    color:#FF8989;
+    width: 90%;
+}
+.prod .addbtn svg{
+    width: 30px;
+    height:30px;
+    background-color:#FFCACC;
+    border-radius: 50%;
+    padding: 3px;
+    color: #916DB3;
+}
+.prod .addbtn{
+    position:absolute;
+    top:40%;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.prod .addbtn svg:hover{
+    cursor: pointer;
+    background-color:#916DB3 ;
+    color:#FFCACC;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transform:scale(1.2);
+}

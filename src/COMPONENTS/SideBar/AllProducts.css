@@ -1,0 +1,20 @@
+.allproducts{
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+  padding: 10px;
+}
+.allproducts h1{
+    font-size:30px;
+    text-align:center;
+
+}
+.allproducts .products{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+    transition: all 0.5s ease;
+}
+.products span{
+    font-size: 20px;
+}
