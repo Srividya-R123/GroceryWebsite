@@ -3,11 +3,12 @@
     flex-direction: column;
     width: 83%;
   padding: 10px;
+ 
 }
 .allproducts h1{
-    font-size:30px;
-    text-align:center;
-
+    font-size:50px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 .allproducts .products{
     display: flex;

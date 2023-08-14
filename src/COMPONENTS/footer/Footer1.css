@@ -1,0 +1,30 @@
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:20px 0px;
+    background-image:url("../../ASSETS/bg.png") ; 
+    overflow: hidden;
+height:350px;
+}
+.footer1 .right{
+    margin-right:30px ;
+    justify-content: center;
+    width: 60%;
+    color:#1A5D1A
+}
+.footer1 .left img{
+height:350px;
+width:350px;
+}
+
+.right h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.right p{
+    font-weight: 600;
+    font-size: 25px;
+}
+

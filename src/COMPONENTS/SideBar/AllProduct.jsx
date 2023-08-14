@@ -88,7 +88,7 @@ const AllProduct = () => {
     ]
   return (
     <div className='allproducts'>
-        <h1>All products</h1>
+        <h1>All Products</h1>
         <div class='products'>
             {
                 pro.map((item)=>{
