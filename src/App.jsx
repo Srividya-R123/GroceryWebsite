@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const App=()=>{
  
   return (
+    
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<Home />}></Route>
